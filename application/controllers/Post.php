@@ -43,7 +43,7 @@ class Post extends CI_Controller
 
         $this->load->library('pagination');
 
-        $config['base_url'] = 'http://localhost/ci3kp/post/index';
+        $config['base_url'] = 'https://pelatihan-web.herokuapp.com/post';
 
         if ($this->session->userdata('keyword') == false) {
 

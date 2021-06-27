@@ -1,7 +1,7 @@
  <?php
    class Home extends CI_Controller
    {
-      public function index($nama = 'Yudhan')
+      public function index($nama = 'Yudhan Rahmat Afriawan')
       {
          $data['judul'] = 'Halaman Home';
          $data['nama'] = $nama;
